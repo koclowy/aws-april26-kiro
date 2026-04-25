@@ -6,12 +6,12 @@
   <title>Chloe Tee Rouyi ✿ AI Student & Maker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- decorative floating blobs -->
+  <!-- background blobs -->
   <div class="blob blob-1" aria-hidden="true"></div>
   <div class="blob blob-2" aria-hidden="true"></div>
   <div class="blob blob-3" aria-hidden="true"></div>
@@ -21,56 +21,43 @@
   <nav class="nav" aria-label="Main navigation">
     <span class="nav-logo">🐾 chloe</span>
     <ul class="nav-links">
-      <li><a href="#about">about</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#experience">journey</a></li>
-      <li><a href="#projects">projects</a></li>
-      <li><a href="#achievements">wins</a></li>
+      <li><a href="#board">board</a></li>
       <li><a href="#contact">say hi</a></li>
     </ul>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO / PROFILE HEADER -->
   <header class="hero" role="banner">
     <div class="hero-inner">
-
-      <!-- avatar -->
       <div class="hero-avatar-wrap">
-        <div class="hero-avatar" aria-label="Chloe's avatar with cat ears">
-          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CT initials on pink background with bear ears">
+        <div class="hero-avatar" aria-label="Chloe's bear avatar">
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CT initials with bear ears">
             <defs>
               <radialGradient id="avBg" cx="40%" cy="35%">
                 <stop offset="0%" stop-color="#ffd6e7"/>
                 <stop offset="100%" stop-color="#f9a8d4"/>
               </radialGradient>
             </defs>
-            <!-- bear ears (round) -->
             <circle cx="38" cy="42" r="22" fill="#f472b6" opacity="0.9"/>
             <circle cx="122" cy="42" r="22" fill="#f472b6" opacity="0.9"/>
             <circle cx="38" cy="42" r="13" fill="#fce7f3"/>
             <circle cx="122" cy="42" r="13" fill="#fce7f3"/>
-            <!-- face -->
             <circle cx="80" cy="88" r="68" fill="url(#avBg)"/>
-            <!-- initials -->
             <text x="50%" y="57%" dominant-baseline="middle" text-anchor="middle"
                   font-family="Nunito, sans-serif" font-size="42" font-weight="900"
                   fill="white" letter-spacing="2">CT</text>
-            <!-- blush -->
             <ellipse cx="52" cy="104" rx="13" ry="7" fill="#f9a8d4" opacity="0.65"/>
             <ellipse cx="108" cy="104" rx="13" ry="7" fill="#f9a8d4" opacity="0.65"/>
           </svg>
         </div>
-        <!-- floating deco around avatar -->
         <span class="av-deco av-deco-1" aria-hidden="true">✦</span>
         <span class="av-deco av-deco-2" aria-hidden="true">🌸</span>
         <span class="av-deco av-deco-3" aria-hidden="true">🐾</span>
         <span class="av-deco av-deco-4" aria-hidden="true">♡</span>
       </div>
-
-      <!-- text -->
       <div class="hero-text">
         <p class="hero-eyebrow">hi there, i'm</p>
-        <h1 class="hero-name">Chloe Tee <span class="hero-name-accent">Rouyi</span> <span aria-hidden="true">🐱</span></h1>
+        <h1 class="hero-name">Chloe Tee <span class="hero-name-accent">Rouyi</span> 🐱</h1>
         <p class="hero-tagline">CS student · AI enthusiast · aspiring engineer</p>
         <div class="hero-badges">
           <span class="badge badge-pink">🧶 crocheter</span>
@@ -79,330 +66,297 @@
           <span class="badge badge-peach">🤖 AI builder</span>
         </div>
         <div class="hero-cta">
-          <a href="#projects" class="btn-primary">see my work ✨</a>
+          <a href="#board" class="btn-primary">explore my board ✨</a>
           <a href="mailto:chloetee2012@gmail.com" class="btn-ghost">say hello 💌</a>
         </div>
       </div>
-
     </div>
-    <div class="hero-scroll" aria-hidden="true">scroll down ↓</div>
+    <div class="hero-scroll" aria-hidden="true">scroll to explore ↓</div>
   </header>
 
-  <main>
+  <!-- BOARD HEADER -->
+  <div class="board-header" id="board">
+    <h2 class="board-title">my pinboard 📌</h2>
+    <p class="board-subtitle">everything about me, in one place</p>
+  </div>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about-section">
-      <div class="section-pill">01 · about me</div>
-      <h2 class="section-title">who i am 🌸</h2>
-      <div class="about-card">
-        <p class="about-body">
-          Computer Science student specialising in Artificial Intelligence at Taylor's University — with hands-on experience in machine learning, deep learning, NLP, and computer vision. I enjoy building practical AI solutions, experimenting with models, and developing responsible, real-world applications. I bring strong analytical thinking, clear communication, and an outcome-focused mindset to every project.
-        </p>
-        <div class="about-tags">
-          <span class="tag">🎓 Taylor's University</span>
-          <span class="tag">🤖 AI Specialist</span>
-          <span class="tag">📍 Petaling Jaya, MY</span>
-          <span class="tag">🌐 English</span>
-          <span class="tag">🧶 Crocheting</span>
-          <span class="tag">🎮 Gaming</span>
-          <span class="tag">🐱 Cat lover</span>
-          <span class="tag">🐻 Plushies</span>
+  <!-- PINTEREST MASONRY BOARD -->
+  <main class="pin-board" aria-label="Personal pinboard">
+
+    <!-- PIN: About -->
+    <article class="pin pin-about">
+      <div class="pin-header" style="background: linear-gradient(135deg, #fce7f3, #ede9fe);">
+        <span class="pin-header-emoji">🌸</span>
+        <span class="pin-header-label">about me</span>
+      </div>
+      <div class="pin-body">
+        <p>Computer Science student specialising in <strong>Artificial Intelligence</strong> at Taylor's University. Hands-on with ML, deep learning, NLP, and computer vision.</p>
+        <p>I bring strong analytical thinking, clear communication, and an outcome-focused mindset to every project.</p>
+        <div class="pin-tags">
+          <span class="pin-tag">🎓 Taylor's University</span>
+          <span class="pin-tag">📍 Petaling Jaya, MY</span>
+          <span class="pin-tag">🌐 English</span>
         </div>
       </div>
-    </section>
+    </article>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section skills-section">
-      <div class="section-pill">02 · skills</div>
-      <h2 class="section-title">what i bring 💡</h2>
-
-      <div class="skills-block">
-        <h3 class="skills-group-title">🛠️ technical</h3>
-        <div class="skills-grid">
-          <div class="skill-card" style="--sc: #fce7f3; --sb: #f9a8d4;">
-            <span class="skill-icon">🧠</span>
-            <strong>ML &amp; Deep Learning</strong>
-            <small>CNNs, RNNs, NLP, Computer Vision</small>
-          </div>
-          <div class="skill-card" style="--sc: #ede9fe; --sb: #c4b5fd;">
-            <span class="skill-icon">⚡</span>
-            <strong>AI Frameworks</strong>
-            <small>TensorFlow, PyTorch, Jupyter</small>
-          </div>
-          <div class="skill-card" style="--sc: #d1fae5; --sb: #6ee7b7;">
-            <span class="skill-icon">🤖</span>
-            <strong>AI-Assisted Dev</strong>
-            <small>Gemini, Copilot, ChatGPT</small>
-          </div>
-          <div class="skill-card" style="--sc: #fef3c7; --sb: #fcd34d;">
-            <span class="skill-icon">🐍</span>
-            <strong>Programming</strong>
-            <small>Python</small>
-          </div>
-          <div class="skill-card" style="--sc: #e0f2fe; --sb: #7dd3fc;">
-            <span class="skill-icon">📊</span>
-            <strong>Data Analytics</strong>
-            <small>Feature Engineering &amp; Preprocessing</small>
-          </div>
-        </div>
+    <!-- PIN: Hobbies -->
+    <article class="pin pin-hobbies">
+      <div class="pin-header" style="background: linear-gradient(135deg, #d1fae5, #fef3c7);">
+        <span class="pin-header-emoji">🎀</span>
+        <span class="pin-header-label">hobbies & vibes</span>
       </div>
-
-      <div class="skills-block">
-        <h3 class="skills-group-title">🌷 soft skills</h3>
-        <ul class="soft-skills-list">
-          <li><span class="soft-icon">🔍</span> Analytical thinker with a structured, research-oriented approach</li>
-          <li><span class="soft-icon">💬</span> Clear communicator — able to explain complex ideas simply</li>
-          <li><span class="soft-icon">🧘</span> Calm under pressure when debugging or iterating on models</li>
-          <li><span class="soft-icon">🤝</span> Collaborative team contributor with hands-on initiative</li>
-          <li><span class="soft-icon">🚀</span> Outcome-focused with a drive to learn and improve</li>
+      <div class="pin-body">
+        <ul class="pin-list">
+          <li>🧶 Crocheting — making things with my hands</li>
+          <li>🎮 Gaming — love the logic &amp; strategy</li>
+          <li>🐻 Collecting plushies (bears &amp; cats!)</li>
+          <li>🐱 Cat lover forever</li>
+          <li>☕ Former barista, café enthusiast</li>
         </ul>
       </div>
-    </section>
+    </article>
 
-    <!-- EXPERIENCE & EDUCATION -->
-    <section id="experience" class="section timeline-section">
-      <div class="section-pill">03 · journey</div>
-      <h2 class="section-title">experience &amp; education 📖</h2>
-
-      <div class="timeline">
-
-        <div class="timeline-group-label">🎓 education</div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Sept 2023 – Aug 2026 (Expected)</span>
-            <h3>Bachelor of Computer Science (Honours)</h3>
-            <p class="timeline-org">Taylor's University, Subang Jaya</p>
-            <ul>
-              <li>Specialised in AI · Electives: Finance, IoT, Web Applications</li>
-              <li>CGPA 3.82 · 5-time Dean's List Recipient 🏅</li>
-              <li>FYP: "AI-Assisted Structured Reporting System for Radiologists"</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Apr 2022 – Mar 2023</span>
-            <h3>Foundation in Science</h3>
-            <p class="timeline-org">Taylor's College, Subang Jaya</p>
-            <ul>
-              <li>CGPA: 3.23 · Dean's List Recipient</li>
-              <li>Taylor's College Merit Scholarship 2022 🌟</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Sept 2011 – Jul 2021</span>
-            <h3>Primary – Secondary (IGCSE)</h3>
-            <p class="timeline-org">Regent International School, Klang</p>
-            <ul>
-              <li>IGCSE: 5 A*, 3 A · 5 A* in Add Maths, Maths, Physics, Biology, Chemistry</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-group-label">💼 work experience</div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot pink-dot"></div>
-          <div class="timeline-card pink-card">
-            <span class="timeline-date">Aug 2024 – Present</span>
-            <h3>Part-Time Primary Math Tutor</h3>
-            <p class="timeline-org">Pusat Tuisyen Visi Genius, Petaling Jaya</p>
-            <ul>
-              <li>Taught Math to Year 3–6 under Cambridge Checkpoint curriculum</li>
-              <li>Tailored weekly lessons to each student's pace</li>
-              <li>Regular parent communication on progress &amp; strategies</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot pink-dot"></div>
-          <div class="timeline-card pink-card">
-            <span class="timeline-date">Sept 2025 – Present</span>
-            <h3>Private IGCSE Add Maths Tutor</h3>
-            <p class="timeline-org">Freelance</p>
-            <ul>
-              <li>Personalised tutoring with tailored lessons and structured progress tracking</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Apr 2023 – Sept 2024</span>
-            <h3>Part-Time Barista ☕</h3>
-            <p class="timeline-org">Churn, SS21, Petaling Jaya</p>
-            <ul>
-              <li>Customer service, drink preparation, cashier duties</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Apr 2023 – Aug 2023</span>
-            <h3>Part-Time Barista ☕</h3>
-            <p class="timeline-org">Chizu, Citta Mall, Petaling Jaya</p>
-            <ul>
-              <li>Front-of-house operations, specialty drinks, customer service</li>
-            </ul>
-          </div>
-        </div>
-
+    <!-- PIN: Capstone Project (tall/featured) -->
+    <article class="pin pin-featured">
+      <div class="pin-header" style="background: linear-gradient(135deg, #f9a8d4, #c4b5fd, #6ee7b7);">
+        <span class="pin-header-emoji">⭐</span>
+        <span class="pin-header-label">capstone project</span>
       </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section projects-section">
-      <div class="section-pill">04 · projects</div>
-      <h2 class="section-title">what i've built 🔧</h2>
-
-      <div class="projects-grid">
-
-        <article class="project-card featured-card">
-          <div class="project-ribbon">⭐ capstone</div>
-          <div class="project-year">2025 – 2026</div>
-          <h3>ECHO</h3>
-          <p class="project-subtitle">AI-Assisted Structured Reporting System for Radiologists</p>
-          <p>AI-assisted platform for structured radiology report generation — helping doctors work smarter.</p>
-          <div class="project-tags">
-            <span class="project-tag">NLP</span>
-            <span class="project-tag">Deep Learning</span>
-            <span class="project-tag">Healthcare AI</span>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-year">Apr 2025</div>
-          <h3>Weather Classifier 🌦️</h3>
-          <p class="project-type">ML &amp; Parallel Computing</p>
-          <p>Logistic Regression &amp; Random Forest to classify weather as Normal/Extreme.</p>
-          <div class="project-tags">
-            <span class="project-tag">ML</span>
-            <span class="project-tag">Python</span>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-year">Feb 2025</div>
-          <h3>Mental Health Sentiment 💬</h3>
-          <p class="project-type">Data Analytics &amp; ML</p>
-          <p>Decision Tree &amp; RNN to classify text as Depressed/Normal.</p>
-          <div class="project-tags">
-            <span class="project-tag">NLP</span>
-            <span class="project-tag">RNN</span>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-year">Sept 2024</div>
-          <h3>Meat Freshness Classifier 🥩</h3>
-          <p class="project-type">Computer Vision &amp; NLP</p>
-          <p>CNN model to classify meat as fresh/half-fresh/not fresh.</p>
-          <div class="project-tags">
-            <span class="project-tag">CNN</span>
-            <span class="project-tag">Computer Vision</span>
-          </div>
-        </article>
-
-      </div>
-
-      <p class="projects-github">
-        more on <a href="https://github.com/koclowy" target="_blank" rel="noopener noreferrer">github.com/koclowy ↗</a>
-      </p>
-    </section>
-
-    <!-- ACHIEVEMENTS -->
-    <section id="achievements" class="section achievements-section">
-      <div class="section-pill">05 · wins</div>
-      <h2 class="section-title">milestones 🏅</h2>
-      <div class="achievements-grid">
-        <div class="achievement-card" style="--ac: #fce7f3; --ab: #f9a8d4;">
-          <span class="achievement-icon">🏆</span>
-          <p>5× Dean's List</p>
-          <small>Taylor's University</small>
-        </div>
-        <div class="achievement-card" style="--ac: #ede9fe; --ab: #c4b5fd;">
-          <span class="achievement-icon">🎓</span>
-          <p>Merit Scholarship 2022</p>
-          <small>Taylor's College</small>
-        </div>
-        <div class="achievement-card" style="--ac: #d1fae5; --ab: #6ee7b7;">
-          <span class="achievement-icon">☁️</span>
-          <p>AWS Cloud Practitioner</p>
-          <small>Certificate of Completion, 2024</small>
-        </div>
-        <div class="achievement-card" style="--ac: #fef3c7; --ab: #fcd34d;">
-          <span class="achievement-icon">💻</span>
-          <p>UM Hackathon 2025</p>
-          <small>Participation</small>
-        </div>
-        <div class="achievement-card" style="--ac: #e0f2fe; --ab: #7dd3fc;">
-          <span class="achievement-icon">🖥️</span>
-          <p>Supercomputer Poster 2025</p>
-          <small>Participation</small>
-        </div>
-        <div class="achievement-card" style="--ac: #fce7f3; --ab: #f9a8d4;">
-          <span class="achievement-icon">🌩️</span>
-          <p>AWS Jam Day Malaysia 2025</p>
-          <small>Workshop</small>
-        </div>
-        <div class="achievement-card" style="--ac: #ede9fe; --ab: #c4b5fd;">
-          <span class="achievement-icon">🎨</span>
-          <p>Agents of Tech Hackathon 101</p>
-          <small>UI/UX Figma Workshop</small>
+      <div class="pin-body">
+        <div class="pin-year">2025 – 2026</div>
+        <h3 class="pin-title">ECHO</h3>
+        <p class="pin-subtitle">AI-Assisted Structured Reporting System for Radiologists</p>
+        <p>An AI-assisted platform for structured radiology report generation — helping doctors work smarter and faster.</p>
+        <div class="pin-tags">
+          <span class="pin-tag">NLP</span>
+          <span class="pin-tag">Deep Learning</span>
+          <span class="pin-tag">Healthcare AI</span>
         </div>
       </div>
-    </section>
+    </article>
 
-    <!-- FUN FACTS -->
-    <section class="section funfacts-section">
-      <div class="section-pill">06 · fun facts</div>
-      <h2 class="section-title">a little more about me 🌈</h2>
-      <div class="funfacts-grid">
-        <div class="funfact-card" style="--fc: #fce7f3; --fb: #f9a8d4;">
-          <span class="funfact-emoji">🤖</span>
-          <p>I love experimenting with AI models and finding creative real-world applications</p>
-        </div>
-        <div class="funfact-card" style="--fc: #ede9fe; --fb: #c4b5fd;">
-          <span class="funfact-emoji">🧶</span>
-          <p>I crochet in my free time — there's something satisfying about making things with your hands</p>
-        </div>
-        <div class="funfact-card" style="--fc: #d1fae5; --fb: #6ee7b7;">
-          <span class="funfact-emoji">🎮</span>
-          <p>Gaming is my way to unwind — I love the logic and strategy behind it</p>
-        </div>
-        <div class="funfact-card" style="--fc: #fef3c7; --fb: #fcd34d;">
-          <span class="funfact-emoji">🐻</span>
-          <p>I collect plushies — bears and cats are my absolute favourites 🐱</p>
-        </div>
-        <div class="funfact-card" style="--fc: #fce7f3; --fb: #f9a8d4;">
-          <span class="funfact-emoji">🏥</span>
-          <p>My final year project is helping radiologists generate structured reports with AI</p>
-        </div>
-        <div class="funfact-card" style="--fc: #e0f2fe; --fb: #7dd3fc;">
-          <span class="funfact-emoji">☕</span>
-          <p>I've been a barista — I enjoy the calm of a good café atmosphere</p>
+    <!-- PIN: Education -->
+    <article class="pin pin-edu">
+      <div class="pin-header" style="background: linear-gradient(135deg, #ede9fe, #ddd6fe);">
+        <span class="pin-header-emoji">🎓</span>
+        <span class="pin-header-label">education</span>
+      </div>
+      <div class="pin-body">
+        <div class="mini-timeline">
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#f472b6"></span>
+            <div>
+              <strong>BSc Computer Science (Hons)</strong>
+              <small>Taylor's University · 2023–2026</small>
+              <small>CGPA 3.82 · 5× Dean's List 🏅</small>
+            </div>
+          </div>
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#a855f7"></span>
+            <div>
+              <strong>Foundation in Science</strong>
+              <small>Taylor's College · 2022–2023</small>
+              <small>Merit Scholarship 2022 🌟</small>
+            </div>
+          </div>
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#34d399"></span>
+            <div>
+              <strong>IGCSE</strong>
+              <small>Regent International School · 2011–2021</small>
+              <small>5 A* in core subjects</small>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </article>
+
+    <!-- PIN: Technical Skills -->
+    <article class="pin pin-skills">
+      <div class="pin-header" style="background: linear-gradient(135deg, #fef3c7, #fed7aa);">
+        <span class="pin-header-emoji">🛠️</span>
+        <span class="pin-header-label">technical skills</span>
+      </div>
+      <div class="pin-body">
+        <div class="skill-bubbles">
+          <span class="skill-bubble" style="--sc:#fce7f3;--sb:#f9a8d4;">🧠 ML &amp; Deep Learning</span>
+          <span class="skill-bubble" style="--sc:#ede9fe;--sb:#c4b5fd;">⚡ TensorFlow &amp; PyTorch</span>
+          <span class="skill-bubble" style="--sc:#d1fae5;--sb:#6ee7b7;">🤖 Gemini · Copilot · ChatGPT</span>
+          <span class="skill-bubble" style="--sc:#fef3c7;--sb:#fcd34d;">🐍 Python</span>
+          <span class="skill-bubble" style="--sc:#e0f2fe;--sb:#7dd3fc;">📊 Data Analytics</span>
+          <span class="skill-bubble" style="--sc:#fce7f3;--sb:#f9a8d4;">👁️ Computer Vision</span>
+          <span class="skill-bubble" style="--sc:#ede9fe;--sb:#c4b5fd;">💬 NLP</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Weather Classifier -->
+    <article class="pin">
+      <div class="pin-header" style="background: linear-gradient(135deg, #e0f2fe, #bae6fd);">
+        <span class="pin-header-emoji">🌦️</span>
+        <span class="pin-header-label">project</span>
+      </div>
+      <div class="pin-body">
+        <div class="pin-year">Apr 2025</div>
+        <h3 class="pin-title">Weather Classifier</h3>
+        <p class="pin-type">ML &amp; Parallel Computing</p>
+        <p>Logistic Regression &amp; Random Forest to classify weather as Normal/Extreme.</p>
+        <div class="pin-tags">
+          <span class="pin-tag">ML</span>
+          <span class="pin-tag">Python</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Soft Skills -->
+    <article class="pin pin-soft">
+      <div class="pin-header" style="background: linear-gradient(135deg, #fce7f3, #fbcfe8);">
+        <span class="pin-header-emoji">🌷</span>
+        <span class="pin-header-label">soft skills</span>
+      </div>
+      <div class="pin-body">
+        <ul class="pin-list">
+          <li>🔍 Analytical &amp; research-oriented thinker</li>
+          <li>💬 Clear communicator of complex ideas</li>
+          <li>🧘 Calm under pressure when debugging</li>
+          <li>🤝 Collaborative team contributor</li>
+          <li>🚀 Outcome-focused, always learning</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- PIN: Achievements -->
+    <article class="pin pin-achievements">
+      <div class="pin-header" style="background: linear-gradient(135deg, #fef3c7, #fde68a);">
+        <span class="pin-header-emoji">🏅</span>
+        <span class="pin-header-label">achievements</span>
+      </div>
+      <div class="pin-body">
+        <div class="achievement-list">
+          <div class="ach-item">🏆 5× Dean's List — Taylor's University</div>
+          <div class="ach-item">🎓 Merit Scholarship 2022 — Taylor's College</div>
+          <div class="ach-item">☁️ AWS Cloud Practitioner Essentials 2024</div>
+          <div class="ach-item">💻 UM Hackathon 2025</div>
+          <div class="ach-item">🖥️ Supercomputer Poster Competition 2025</div>
+          <div class="ach-item">🌩️ AWS Jam Day Malaysia 2025</div>
+          <div class="ach-item">🎨 Agents of Tech Hackathon — UI/UX Figma</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Mental Health Sentiment -->
+    <article class="pin">
+      <div class="pin-header" style="background: linear-gradient(135deg, #ede9fe, #ddd6fe);">
+        <span class="pin-header-emoji">💬</span>
+        <span class="pin-header-label">project</span>
+      </div>
+      <div class="pin-body">
+        <div class="pin-year">Feb 2025</div>
+        <h3 class="pin-title">Mental Health Sentiment</h3>
+        <p class="pin-type">Data Analytics &amp; ML</p>
+        <p>Decision Tree &amp; RNN to classify text as Depressed/Normal.</p>
+        <div class="pin-tags">
+          <span class="pin-tag">NLP</span>
+          <span class="pin-tag">RNN</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Work Experience -->
+    <article class="pin pin-work">
+      <div class="pin-header" style="background: linear-gradient(135deg, #d1fae5, #a7f3d0);">
+        <span class="pin-header-emoji">💼</span>
+        <span class="pin-header-label">work experience</span>
+      </div>
+      <div class="pin-body">
+        <div class="mini-timeline">
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#f472b6"></span>
+            <div>
+              <strong>Primary Math Tutor</strong>
+              <small>Pusat Tuisyen Visi Genius · Aug 2024–Present</small>
+            </div>
+          </div>
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#a855f7"></span>
+            <div>
+              <strong>IGCSE Add Maths Tutor</strong>
+              <small>Freelance · Sept 2025–Present</small>
+            </div>
+          </div>
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#34d399"></span>
+            <div>
+              <strong>Barista ☕</strong>
+              <small>Churn, SS21 · Apr 2023–Sept 2024</small>
+            </div>
+          </div>
+          <div class="mt-item">
+            <span class="mt-dot" style="background:#fbbf24"></span>
+            <div>
+              <strong>Barista ☕</strong>
+              <small>Chizu, Citta Mall · Apr–Aug 2023</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Meat Freshness -->
+    <article class="pin">
+      <div class="pin-header" style="background: linear-gradient(135deg, #ffedd5, #fed7aa);">
+        <span class="pin-header-emoji">🥩</span>
+        <span class="pin-header-label">project</span>
+      </div>
+      <div class="pin-body">
+        <div class="pin-year">Sept 2024</div>
+        <h3 class="pin-title">Meat Freshness Classifier</h3>
+        <p class="pin-type">Computer Vision &amp; NLP</p>
+        <p>CNN model to classify meat as fresh/half-fresh/not fresh.</p>
+        <div class="pin-tags">
+          <span class="pin-tag">CNN</span>
+          <span class="pin-tag">Computer Vision</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PIN: Fun Facts -->
+    <article class="pin pin-fun">
+      <div class="pin-header" style="background: linear-gradient(135deg, #fce7f3, #ede9fe, #d1fae5);">
+        <span class="pin-header-emoji">🌈</span>
+        <span class="pin-header-label">fun facts</span>
+      </div>
+      <div class="pin-body">
+        <ul class="pin-list">
+          <li>🤖 I experiment with AI models for fun</li>
+          <li>🧶 Crocheting is my creative outlet</li>
+          <li>🎮 Gaming = logic + strategy + relaxation</li>
+          <li>🐻 Bear &amp; cat plushie collector</li>
+          <li>🏥 My FYP helps radiologists with AI</li>
+          <li>☕ I've been a real barista!</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- PIN: GitHub CTA -->
+    <article class="pin pin-github">
+      <div class="pin-header" style="background: linear-gradient(135deg, #e0f2fe, #bae6fd);">
+        <span class="pin-header-emoji">💻</span>
+        <span class="pin-header-label">find me on github</span>
+      </div>
+      <div class="pin-body pin-body-center">
+        <p>All my projects live here 👇</p>
+        <a href="https://github.com/koclowy" target="_blank" rel="noopener noreferrer" class="pin-link-btn">github.com/koclowy ↗</a>
+      </div>
+    </article>
 
   </main>
 
   <!-- CONTACT -->
-  <section id="contact" class="section contact-section">
-    <div class="section-pill">07 · say hi</div>
-    <h2 class="section-title">let's connect 💌</h2>
+  <section id="contact" class="contact-section">
+    <div class="section-pill">say hi 💌</div>
+    <h2 class="section-title">let's connect</h2>
     <p class="contact-sub">open to collaborations, internships, and AI conversations ✨</p>
     <div class="social-links">
       <a href="mailto:chloetee2012@gmail.com" class="social-btn email-btn" aria-label="Email Chloe">
